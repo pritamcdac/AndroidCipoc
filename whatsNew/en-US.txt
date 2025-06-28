@@ -1,0 +1,1 @@
+• First release with CI/CD 🚀
