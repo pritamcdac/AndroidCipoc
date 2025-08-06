@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.example.androidciproject.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.androidciproject.app-main-33:/layout/activity_main.xml"
+    }
+]
