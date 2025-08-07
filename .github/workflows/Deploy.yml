@@ -61,14 +61,15 @@ jobs:
           alias: ${{ secrets.ANDROID_DEVS_ALIAS }}
           keyPassword: ${{ secrets.ANDROID_DEVS_ALIAS_PASSWORD }}
 
-      - name: Setup Authorization with Google Play Store
-        run: echo '${{ secrets.GOOGLE_PLAY_JSON }}' > service_account.json
+      - name: Decode service_account.json
+        run: echo "${{ secrets.GOOGLE_PLAY_JSON }}" | base64 --decode > service_account.json
 
-      - name: Deploy bundle to Google Play
+      - name: Upload to Google Play
         uses: r0adkll/upload-google-play@v1.1.3
         with:
-          serviceAccountJson: service_account.json
-          packageName: com.example.androidciproject
-          releaseFiles: app/build/outputs/bundle/release/app-release.aab
-          track: internal
-          status: completed
+         serviceAccountJson: service_account.json
+         packageName: com.example.androidciproject
+         releaseFiles: app/build/outputs/bundle/release/app-release.aab
+         track: internal
+         status: completed
+
