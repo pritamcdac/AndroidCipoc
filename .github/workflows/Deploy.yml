@@ -1,4 +1,4 @@
-name: Deploy To Google Play
+name: Deploy To Google Play.
 
 on:
   push:
