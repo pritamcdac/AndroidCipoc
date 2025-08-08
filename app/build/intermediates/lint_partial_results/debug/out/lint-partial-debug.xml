@@ -3,7 +3,7 @@
     <map id="UnsafeIntentLaunch">
             <map id="unprotected">
                 <entry
-                    name="com.example.androidciproject.MainActivity"
+                    name="com.cybage.androidciproject.MainActivity"
                     boolean="true"/>
             </map>
     </map>

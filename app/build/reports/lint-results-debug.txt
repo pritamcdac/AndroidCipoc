@@ -27,7 +27,7 @@ E:\Mobile\AndroidProject\AndroidCipoc\app\build.gradle.kts:56: Warning: A newer 
    However, you may simply not be aware that a more recent version is
    available, and that is what this lint check helps find.
 
-E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:2: Warning: Should explicitly set android:icon, there is no default [MissingApplicationIcon]
+E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:4: Warning: Should explicitly set android:icon, there is no default [MissingApplicationIcon]
     <application
      ~~~~~~~~~~~
 

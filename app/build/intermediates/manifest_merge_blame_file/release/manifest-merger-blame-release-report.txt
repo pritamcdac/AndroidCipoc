@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.androidciproject"
+3    package="com.cybage.androidciproject"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -10,41 +10,41 @@
 10
 11    <permission
 11-->[androidx.core:core:1.12.0] C:\Users\pritamde\.gradle\caches\transforms-4\e66eb26434afd1aac584dcc0064a0c59\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.example.androidciproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12        android:name="com.cybage.androidciproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 12-->[androidx.core:core:1.12.0] C:\Users\pritamde\.gradle\caches\transforms-4\e66eb26434afd1aac584dcc0064a0c59\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
 13-->[androidx.core:core:1.12.0] C:\Users\pritamde\.gradle\caches\transforms-4\e66eb26434afd1aac584dcc0064a0c59\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 14
-15    <uses-permission android:name="com.example.androidciproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15    <uses-permission android:name="com.cybage.androidciproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 15-->[androidx.core:core:1.12.0] C:\Users\pritamde\.gradle\caches\transforms-4\e66eb26434afd1aac584dcc0064a0c59\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 15-->[androidx.core:core:1.12.0] C:\Users\pritamde\.gradle\caches\transforms-4\e66eb26434afd1aac584dcc0064a0c59\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:2:5-15:19
+17-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:4:5-18:19
 18        android:allowBackup="true"
-18-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:3:9-35
+18-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:5:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.12.0] C:\Users\pritamde\.gradle\caches\transforms-4\e66eb26434afd1aac584dcc0064a0c59\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 20        android:extractNativeLibs="false"
 21        android:supportsRtl="true"
-21-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:4:9-35
+21-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:6:9-35
 22        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
-22-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:5:9-67
+22-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:7:9-67
 23        <activity
-23-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:7:9-13:20
-24            android:name="com.example.androidciproject.MainActivity"
-24-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:7:19-47
+23-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:9:9-16:20
+24            android:name="com.cybage.androidciproject.MainActivity"
+24-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:9:19-47
 25            android:exported="true" >
-25-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:8:13-36
+25-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:10:13-36
 26            <intent-filter>
-26-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:9:13-12:29
+26-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:12:13-15:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:10:17-69
-27-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:10:25-66
+27-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:13:17-69
+27-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:13:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:11:17-77
-29-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:11:27-74
+29-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:14:17-77
+29-->E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml:14:27-74
 30            </intent-filter>
 31        </activity>
 32
@@ -52,7 +52,7 @@
 33-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pritamde\.gradle\caches\transforms-4\feaf93558cba081d583698a457e43b77\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 34            android:name="androidx.startup.InitializationProvider"
 34-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pritamde\.gradle\caches\transforms-4\feaf93558cba081d583698a457e43b77\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-35            android:authorities="com.example.androidciproject.androidx-startup"
+35            android:authorities="com.cybage.androidciproject.androidx-startup"
 35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pritamde\.gradle\caches\transforms-4\feaf93558cba081d583698a457e43b77\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 36            android:exported="false" >
 36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pritamde\.gradle\caches\transforms-4\feaf93558cba081d583698a457e43b77\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37

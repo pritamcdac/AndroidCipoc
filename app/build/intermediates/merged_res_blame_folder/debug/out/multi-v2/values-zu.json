@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androidciproject.app-mergeDebugResources-29:/values-zu/values-zu.xml",
+            "outputFile": "com.cybage.androidciproject.app-mergeDebugResources-29:/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pritamde\\.gradle\\caches\\transforms-4\\7b507e7ef661c421d48a444500fc6e2e\\transformed\\appcompat-1.6.1\\res\\values-zu\\values-zu.xml",

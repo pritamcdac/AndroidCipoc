@@ -1,6 +1,6 @@
 <variant
     name="debug"
-    package="com.example.androidciproject"
+    package="com.cybage.androidciproject"
     minSdkVersion="24"
     targetSdkVersion="34"
     debuggable="true"
@@ -35,13 +35,13 @@
   </testFixturesSourceProviders>
   <mainArtifact
       classOutputs="build\intermediates\javac\debug\classes;build\tmp\kotlin-classes\debug;build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\R.jar"
-      applicationId="com.example.androidciproject"
+      applicationId="com.cybage.androidciproject"
       generatedSourceFolders="build\generated\ap_generated_sources\debug\out;build\generated\data_binding_base_class_source_out\debug\out"
       generatedResourceFolders="build\generated\res\resValues\debug"
       desugaredMethodsFiles="C:\Users\pritamde\.gradle\caches\transforms-4\6c2890600c25ebdb7990d6a278911d38\transformed\D8BackportedDesugaredMethods.txt">
   </mainArtifact>
   <androidTestArtifact
-      applicationId="com.example.androidciproject.test"
+      applicationId="com.cybage.androidciproject.test"
       generatedResourceFolders="build\generated\res\resValues\androidTest\debug"
       desugaredMethodsFiles="C:\Users\pritamde\.gradle\caches\transforms-4\6c2890600c25ebdb7990d6a278911d38\transformed\D8BackportedDesugaredMethods.txt">
   </androidTestArtifact>

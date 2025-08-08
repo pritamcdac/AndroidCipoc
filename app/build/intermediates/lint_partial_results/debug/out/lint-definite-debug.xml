@@ -28,10 +28,10 @@
             file="${:app*projectDir}/build.gradle.kts"
             line="48"
             column="21"
-            startOffset="981"
+            startOffset="979"
             endLine="48"
             endColumn="50"
-            endOffset="1010"/>
+            endOffset="1008"/>
     </incident>
 
     <incident
@@ -47,10 +47,10 @@
             file="${:app*projectDir}/build.gradle.kts"
             line="49"
             column="21"
-            startOffset="1033"
+            startOffset="1031"
             endLine="49"
             endColumn="55"
-            endOffset="1067"/>
+            endOffset="1065"/>
     </incident>
 
     <incident
@@ -66,10 +66,10 @@
             file="${:app*projectDir}/build.gradle.kts"
             line="50"
             column="21"
-            startOffset="1115"
+            startOffset="1113"
             endLine="50"
             endColumn="64"
-            endOffset="1158"/>
+            endOffset="1156"/>
     </incident>
 
     <incident
@@ -85,10 +85,10 @@
             file="${:app*projectDir}/build.gradle.kts"
             line="51"
             column="21"
-            startOffset="1181"
+            startOffset="1179"
             endLine="51"
             endColumn="69"
-            endOffset="1229"/>
+            endOffset="1227"/>
     </incident>
 
     <incident
@@ -104,10 +104,10 @@
             file="${:app*projectDir}/build.gradle.kts"
             line="54"
             column="25"
-            startOffset="1302"
+            startOffset="1300"
             endLine="54"
             endColumn="41"
-            endOffset="1318"/>
+            endOffset="1316"/>
     </incident>
 
     <incident
@@ -123,10 +123,10 @@
             file="${:app*projectDir}/build.gradle.kts"
             line="55"
             column="32"
-            startOffset="1352"
+            startOffset="1350"
             endLine="55"
             endColumn="61"
-            endOffset="1381"/>
+            endOffset="1379"/>
     </incident>
 
     <incident
@@ -142,10 +142,10 @@
             file="${:app*projectDir}/build.gradle.kts"
             line="56"
             column="32"
-            startOffset="1415"
+            startOffset="1413"
             endLine="56"
             endColumn="74"
-            endOffset="1457"/>
+            endOffset="1455"/>
     </incident>
 
 </incidents>

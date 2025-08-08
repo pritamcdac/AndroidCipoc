@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androidciproject.app-mergeReleaseResources-29:/values-tl/values-tl.xml",
+            "outputFile": "com.cybage.androidciproject.app-mergeReleaseResources-29:/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pritamde\\.gradle\\caches\\transforms-4\\e66eb26434afd1aac584dcc0064a0c59\\transformed\\core-1.12.0\\res\\values-tl\\values-tl.xml",

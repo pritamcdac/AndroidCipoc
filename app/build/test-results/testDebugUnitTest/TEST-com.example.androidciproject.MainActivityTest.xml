@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.androidciproject.MainActivityTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-08T07:07:42" hostname="CVC2426" time="0.006">
-  <properties/>
-  <testcase name="testAppName" classname="com.example.androidciproject.MainActivityTest" time="0.004"/>
-  <testcase name="dummyTest_passes" classname="com.example.androidciproject.MainActivityTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

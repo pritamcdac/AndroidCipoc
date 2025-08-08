@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.androidciproject"
+    namespace = "com.cybage.androidciproject"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.androidciproject"
+        applicationId = "com.cybage.androidciproject"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

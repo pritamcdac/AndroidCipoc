@@ -127,7 +127,7 @@
         errorLine2="     ~~~~~~~~~~~">
         <location
             file="E:\Mobile\AndroidProject\AndroidCipoc\app\src\main\AndroidManifest.xml"
-            line="2"
+            line="4"
             column="6"/>
     </issue>
 

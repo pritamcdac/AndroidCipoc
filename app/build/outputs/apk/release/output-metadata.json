@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.androidciproject",
+  "applicationId": "com.cybage.androidciproject",
   "variantName": "release",
   "elements": [
     {
