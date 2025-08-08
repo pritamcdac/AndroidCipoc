@@ -244,6 +244,7 @@
   <com.google.android.flexbox/>
   <com.google.android.games/>
   <com.google.android.gms/>
+  <com.google.android.gms.oss-licenses-plugin/>
   <com.google.android.gms.strict-version-matcher-plugin/>
   <com.google.android.instantapps/>
   <com.google.android.instantapps.thirdpartycompat/>

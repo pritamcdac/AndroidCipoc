@@ -94,6 +94,25 @@
     <incident
         id="GradleDependency"
         severity="warning"
+        message="A newer version of junit:junit than 4.12 is available: 4.13.2">
+        <fix-replace
+            description="Change to 4.13.2"
+            family="Update versions"
+            oldString="4.12"
+            replacement="4.13.2"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="54"
+            column="25"
+            startOffset="1302"
+            endLine="54"
+            endColumn="41"
+            endOffset="1318"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
         message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0">
         <fix-replace
             description="Change to 1.3.0"
@@ -102,12 +121,12 @@
             replacement="1.3.0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="54"
+            line="55"
             column="32"
-            startOffset="1309"
-            endLine="54"
+            startOffset="1352"
+            endLine="55"
             endColumn="61"
-            endOffset="1338"/>
+            endOffset="1381"/>
     </incident>
 
     <incident
@@ -121,12 +140,12 @@
             replacement="3.7.0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="55"
+            line="56"
             column="32"
-            startOffset="1372"
-            endLine="55"
+            startOffset="1415"
+            endLine="56"
             endColumn="74"
-            endOffset="1414"/>
+            endOffset="1457"/>
     </incident>
 
 </incidents>
