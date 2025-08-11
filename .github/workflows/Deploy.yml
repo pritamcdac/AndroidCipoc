@@ -43,11 +43,11 @@ jobs:
       - name: Grant execute permissions for gradlew  
         run: chmod +x gradlew
 
-      - name: Version Bump
-        uses: chkfung/android-version-actions@v1.2.3
-        with:
-          gradlePath: app/build.gradle.kts
-          versionCode: ${{ github.run_number }}
+      - name: Bump versionCode
+        run: |
+          VERSION_CODE=$(( ${{ github.run_number }} + 100 )) # Offset so it's always > 1
+          echo "New VERSION_CODE=$VERSION_CODE"
+          sed -i "s/versionCode = [0-9]\+/versionCode = $VERSION_CODE/" app/build.gradle.kts
 
       - name: Assemble Release Bundle
         run: ./gradlew bundleRelease
