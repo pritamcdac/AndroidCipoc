@@ -74,4 +74,4 @@ jobs:
          packageName: com.cybage.androidciproject
          releaseFiles: app/build/outputs/bundle/release/app-release.aab
          track: internal
-         status: completed
+         status: draft
